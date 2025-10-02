@@ -1,16 +1,34 @@
-## Hi there 👋
+# To-Do List App
 
-<!--
-**Nandini7003/Nandini7003** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+A simple **To-Do List** web application built using **HTML, CSS, and JavaScript**.  
+Keep track of your tasks, mark them as complete, and delete them. All tasks are saved in **localStorage**, so your list persists even after refreshing the page.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Features
+
+- Add new tasks
+- Mark tasks as **complete**
+- Delete tasks
+- Persistent storage using **localStorage**
+- Live task counts:
+  - Total tasks
+  - Completed tasks
+
+---
+
+## Demo
+
+![Demo Screenshot](screenshot.png)  
+*(Optional: Replace `screenshot.png` with your own image)*
+
+---
+
+## Installation
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/your-username/todo-list.git
+cd todo-list
+
+
