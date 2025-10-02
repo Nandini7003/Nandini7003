@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>To-Do List App</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<div class="card" role="application" aria-labelledby="app-title">
+<h1 id="app-title">To-Do List</h1>
+<p class="lead">Add tasks, mark them complete, delete, and persist them in your browser.</p>
+
+
+<form class="add" id="addForm" aria-label="Add task">
+<input id="taskInput" type="text" placeholder="Add a new task..." maxlength="200" required aria-required="true" />
+<button class="addBtn" id="addBtn" type="submit">Add</button>
+</form>
+
+
+<ul class="list" id="taskList" aria-live="polite"></ul>
+
+
+<div class="meta">
+<div id="counts">0 tasks • 0 completed</div>
+<div>
+<button class="clearAll" id="clearCompleted">Clear completed</button>
+</div>
+</div>
+</div>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
